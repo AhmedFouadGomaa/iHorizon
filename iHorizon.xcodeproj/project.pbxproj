@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3DF666C33BBC84E67F6E63FD /* Pods_iHorizon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40582574D74BA03CA259E133 /* Pods_iHorizon.framework */; };
+		7416BBC920AB78360053EA1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7416BBC820AB78360053EA1A /* AppDelegate.swift */; };
+		7416BBCB20AB78360053EA1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7416BBCA20AB78360053EA1A /* ViewController.swift */; };
+		7416BBCE20AB78360053EA1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7416BBCC20AB78360053EA1A /* Main.storyboard */; };
+		7416BBD020AB78360053EA1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7416BBCF20AB78360053EA1A /* Assets.xcassets */; };
+		7416BBD320AB78360053EA1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7416BBD120AB78360053EA1A /* LaunchScreen.storyboard */; };
+		7416BBDE20AB79520053EA1A /* HTTPHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7416BBDD20AB79520053EA1A /* HTTPHandler.swift */; };
+		7416BBE020AB7C760053EA1A /* CustomHomeListing.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7416BBDF20AB7C760053EA1A /* CustomHomeListing.xib */; };
+		7416BBE220AC0B050053EA1A /* GitHubRepos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7416BBE120AC0B040053EA1A /* GitHubRepos.swift */; };
+		7416BBE820AC48AA0053EA1A /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 7416BBE720AC48AA0053EA1A /* Podfile */; };
+		7416BBEE20ACD79D0053EA1A /* InnerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7416BBED20ACD79D0053EA1A /* InnerVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		000575F62CE6662BD1A3199A /* Pods-iHorizon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iHorizon.release.xcconfig"; path = "Pods/Target Support Files/Pods-iHorizon/Pods-iHorizon.release.xcconfig"; sourceTree = "<group>"; };
+		40582574D74BA03CA259E133 /* Pods_iHorizon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iHorizon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7416BBC520AB78360053EA1A /* iHorizon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iHorizon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7416BBC820AB78360053EA1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7416BBCA20AB78360053EA1A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7416BBCD20AB78360053EA1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7416BBCF20AB78360053EA1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7416BBD220AB78360053EA1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7416BBD420AB78360053EA1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7416BBDD20AB79520053EA1A /* HTTPHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPHandler.swift; sourceTree = "<group>"; };
+		7416BBDF20AB7C760053EA1A /* CustomHomeListing.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomHomeListing.xib; sourceTree = "<group>"; };
+		7416BBE120AC0B040053EA1A /* GitHubRepos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubRepos.swift; sourceTree = "<group>"; };
+		7416BBE720AC48AA0053EA1A /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7416BBED20ACD79D0053EA1A /* InnerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InnerVC.swift; sourceTree = "<group>"; };
+		758D7B5C134E1DC692460FDE /* Pods-iHorizon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iHorizon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iHorizon/Pods-iHorizon.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7416BBC220AB78360053EA1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DF666C33BBC84E67F6E63FD /* Pods_iHorizon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00148A56FF98E0ACA302B13A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				758D7B5C134E1DC692460FDE /* Pods-iHorizon.debug.xcconfig */,
+				000575F62CE6662BD1A3199A /* Pods-iHorizon.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7416BBBC20AB78360053EA1A = {
+			isa = PBXGroup;
+			children = (
+				7416BBE720AC48AA0053EA1A /* Podfile */,
+				7416BBC720AB78360053EA1A /* iHorizon */,
+				7416BBC620AB78360053EA1A /* Products */,
+				00148A56FF98E0ACA302B13A /* Pods */,
+				95FF62B0D2BE8978CE56341B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7416BBC620AB78360053EA1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7416BBC520AB78360053EA1A /* iHorizon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7416BBC720AB78360053EA1A /* iHorizon */ = {
+			isa = PBXGroup;
+			children = (
+				7416BBDC20AB793A0053EA1A /* Controllers */,
+				7416BBDB20AB79290053EA1A /* Views */,
+				7416BBDA20AB79210053EA1A /* Models */,
+				7416BBC820AB78360053EA1A /* AppDelegate.swift */,
+				7416BBCF20AB78360053EA1A /* Assets.xcassets */,
+				7416BBD120AB78360053EA1A /* LaunchScreen.storyboard */,
+				7416BBD420AB78360053EA1A /* Info.plist */,
+			);
+			path = iHorizon;
+			sourceTree = "<group>";
+		};
+		7416BBDA20AB79210053EA1A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7416BBDD20AB79520053EA1A /* HTTPHandler.swift */,
+				7416BBE120AC0B040053EA1A /* GitHubRepos.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7416BBDB20AB79290053EA1A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7416BBCA20AB78360053EA1A /* ViewController.swift */,
+				7416BBED20ACD79D0053EA1A /* InnerVC.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7416BBDC20AB793A0053EA1A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7416BBCC20AB78360053EA1A /* Main.storyboard */,
+				7416BBDF20AB7C760053EA1A /* CustomHomeListing.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		95FF62B0D2BE8978CE56341B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40582574D74BA03CA259E133 /* Pods_iHorizon.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7416BBC420AB78360053EA1A /* iHorizon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7416BBD720AB78360053EA1A /* Build configuration list for PBXNativeTarget "iHorizon" */;
+			buildPhases = (
+				B181D54A1086352501BD58F5 /* [CP] Check Pods Manifest.lock */,
+				7416BBC120AB78360053EA1A /* Sources */,
+				7416BBC220AB78360053EA1A /* Frameworks */,
+				7416BBC320AB78360053EA1A /* Resources */,
+				39ECB297D1D4C94C5B4F9CEF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iHorizon;
+			productName = iHorizon;
+			productReference = 7416BBC520AB78360053EA1A /* iHorizon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7416BBBD20AB78360053EA1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = ahmedfouad;
+				TargetAttributes = {
+					7416BBC420AB78360053EA1A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7416BBC020AB78360053EA1A /* Build configuration list for PBXProject "iHorizon" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7416BBBC20AB78360053EA1A;
+			productRefGroup = 7416BBC620AB78360053EA1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7416BBC420AB78360053EA1A /* iHorizon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7416BBC320AB78360053EA1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7416BBE820AC48AA0053EA1A /* Podfile in Resources */,
+				7416BBE020AB7C760053EA1A /* CustomHomeListing.xib in Resources */,
+				7416BBD320AB78360053EA1A /* LaunchScreen.storyboard in Resources */,
+				7416BBD020AB78360053EA1A /* Assets.xcassets in Resources */,
+				7416BBCE20AB78360053EA1A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		39ECB297D1D4C94C5B4F9CEF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-iHorizon/Pods-iHorizon-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iHorizon/Pods-iHorizon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B181D54A1086352501BD58F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iHorizon-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7416BBC120AB78360053EA1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7416BBEE20ACD79D0053EA1A /* InnerVC.swift in Sources */,
+				7416BBCB20AB78360053EA1A /* ViewController.swift in Sources */,
+				7416BBE220AC0B050053EA1A /* GitHubRepos.swift in Sources */,
+				7416BBDE20AB79520053EA1A /* HTTPHandler.swift in Sources */,
+				7416BBC920AB78360053EA1A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7416BBCC20AB78360053EA1A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7416BBCD20AB78360053EA1A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7416BBD120AB78360053EA1A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7416BBD220AB78360053EA1A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7416BBD520AB78360053EA1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7416BBD620AB78360053EA1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7416BBD820AB78360053EA1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 758D7B5C134E1DC692460FDE /* Pods-iHorizon.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iHorizon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"SDWebImage\"",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iHorizon.iHorizon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7416BBD920AB78360053EA1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 000575F62CE6662BD1A3199A /* Pods-iHorizon.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iHorizon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"SDWebImage\"",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iHorizon.iHorizon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7416BBC020AB78360053EA1A /* Build configuration list for PBXProject "iHorizon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7416BBD520AB78360053EA1A /* Debug */,
+				7416BBD620AB78360053EA1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7416BBD720AB78360053EA1A /* Build configuration list for PBXNativeTarget "iHorizon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7416BBD820AB78360053EA1A /* Debug */,
+				7416BBD920AB78360053EA1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7416BBBD20AB78360053EA1A /* Project object */;
+}
